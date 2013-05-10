@@ -33,7 +33,7 @@ Updating as described above will mean the repo in your submodule will have a det
 
 ## Testing changes to the toolkit
 
-Before merging changes into the [toolkit repo](https://github.com/alphagov/govuk_frontend_toolkit) you will need to test them in your project. In this case simple updating, as above, will not work as this only brings in commits from the master branch.
+Before merging changes you will need to test them in your project. In this case simple updating, as above, will not work as this only brings in commits from the master branch whereas your work is most likely on another branch.
 
 A submodule is a repositry itself so you can instead change into its directory & checkout the branch with the changes on:
 
