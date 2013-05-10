@@ -19,9 +19,26 @@ If you clone a project with the toolkit submodule installed you will need to int
 
     $ git submodule init
 
+## Updating
+
 To update the toolkit to the latest version you can use:
 
     $ git submodule update
+
+### Things to note
+
+Updating as described above will mean the repo in your submodule will have a detached HEAD. This means any changes you make to files inside the submodule will be lost when you update as above.
+
+(Further info can be found here: [detached HEAD](http://git-scm.com/book/en/Git-Tools-Submodules#Issues-with-Submodules).)
+
+## Testing changes to the toolkit
+
+Before merging changes into the [toolkit repo](https://github.com/alphagov/govuk_frontend_toolkit) you will need to test them in your project. In this case simple updating, as above, will not work as this only brings in commits from the master branch.
+
+A submodule is a repositry itself so you can instead change into its directory & checkout the branch with the changes on:
+
+    $ cd app/assets
+    $ git co the-branch-containing-your-changes
 
 ## Usage
 
