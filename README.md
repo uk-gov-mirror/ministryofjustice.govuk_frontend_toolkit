@@ -29,7 +29,7 @@ To update the toolkit to the latest version you can use:
 
 Updating as described above will mean the repo in your submodule will have a detached HEAD. This means any changes you make to files inside the submodule will be lost when you update as above.
 
-(Further info can be found here: [detached HEAD](http://git-scm.com/book/en/Git-Tools-Submodules#Issues-with-Submodules).)
+(Further info can be found on the [Git book's submodule page](http://git-scm.com/book/en/Git-Tools-Submodules#Issues-with-Submodules).)
 
 ## Testing changes to the toolkit
 
